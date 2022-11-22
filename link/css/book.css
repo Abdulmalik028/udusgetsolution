@@ -1,0 +1,47 @@
+body{
+    background-color: greenyellow;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+#eye{
+    position:absolute;
+    right: 50.2%;
+    cursor:pointer;
+    
+}
+label{
+    color: green;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.container{
+    width: 650px;
+    
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.form-control{
+    margin-bottom: 30px;
+    
+    
+}
+.input-control{
+    width: 400px;
+    height: 40px;
+    border:2px solid white;
+    border-radius:10px;
+    outline:none;
+
+}
+.input-control:hover{
+    border:2px solid blue;
+}
+
+
+
+

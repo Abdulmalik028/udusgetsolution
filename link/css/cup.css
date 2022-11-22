@@ -1,0 +1,40 @@
+body{
+
+    background-color: greenyellow;
+}
+li a{
+    font-size: 30px;
+    color: green;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
+
+}
+ul li{
+    padding-top: 20px;
+}
+.new{
+    color: white;
+}
+.box{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#more {display: none;}
+.me{
+    font-size: 40px;
+    color: greenyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
