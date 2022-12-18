@@ -9,6 +9,7 @@ if (isset($_SESSION["email"])){
 if($_SERVER['REQUEST_METHOD'] == "POST"){
   $email =$_POST['email'];
   $password =$_POST['password'];
+  
   $hash_password = sha1('password');
 
   if(empty($email) && empty($password)){
@@ -20,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     alert('password not satisfied atleast 6 characters');</script>";
 
    } else{
-    $query = "SELECT * FROM users_form WHERE email='$email'&&  password = '$hash_password'";
+    $query = "SELECT * FROM users_form  WHERE email='$email' &&  password  = '$hash_password'";
     $result = mysqli_query($con,$query);
     if(mysqli_num_rows($result) > 1){
         echo "<script>alert('email or password not correct');</script>";

@@ -182,9 +182,7 @@ if (!isset($_SESSION["email"])) {
   <div class="container-fluid w-100" style="background-color:black ; margin-top: 5%;">
     <div class="container w-50">
         <h3 id="about1">About Us</h3>
-        <p class="get" style="padding-bottom:100px ; padding-top: 20px;">Get solution and past question is an educational arena 
-          which is targeted to provide necessary solutions to problems
-
+        <p class="get" style="padding-bottom:100px ; padding-top: 20px;">
            regarding all science subject such as physics, chemistry and biology,
            as well as english language and mathematics.This web page is so well conducted that each subject has a
              specific tutor who provides solutions to any question pertaining to
@@ -321,10 +319,10 @@ if (!isset($_SESSION["email"])) {
 
 
 <div class="container-fluid w-100"  style="background-color: rgb(101, 138, 45); margin-bottom: -20px;">
-  <p  class="cop pt-2">COPYRIGHT@ 2020-2022</p>
-  <p class="cop">Powered By: <img src="img/pick.jpg" class="img-responsive" style="width:150px;"></p>
-  <p class="cop">Email: maleekbakare@gmail.com</p>
-  <p class="cop">Contact <i class="fa fa-phone"></i> 07085189810</p>
+  <p  class="cop pt-2" style="text-align: center;">COPYRIGHT@ 2020-2022</p>
+  <p class="cop"style="text-align: center;">Powered By: <img src="img/pick.jpg" class="img-responsive" style="width:150px;"></p>
+  <p class="cop"style="text-align: center;">Email: maleekbakare@gmail.com</p>
+  <p class="cop"style="text-align: center;">Contact <i class="fa fa-phone"></i> 07085189810</p>
 
   
 
